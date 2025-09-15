@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: arial ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+
+    background: url("coquette🎀.jpeg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1{
+  margin: 20px;
+  color: rgb(255, 0, 170);
+  text-align: center;
+}
+
+
+.container {
+  display: grid; /* organiza os cards em linha */
+  flex-wrap: wrap;
+  gap: 26px;     /* espaço entre eles */
+  justify-content: center; /* centraliza */
+  max-width: 800px;
+  margin: 40px, auto;
+  align-items: center;
+  background: transparent;
+  grid-template-columns: repeat(2, 1fr)
+}
+
+.card1, .card2, .card3, .card4{
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  color: rgb(255, 0, 170);
+  backdrop-filter: blur (10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  box-shadow:  0 4px 10px rgba(0, 0, 0, 0.2);
+
+}
+
