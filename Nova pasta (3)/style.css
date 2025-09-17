@@ -43,4 +43,37 @@ h1{
   box-shadow:  0 4px 10px rgba(0, 0, 0, 0.2);
 
 }
+footer{
+  font-family: Arial;
+  color: rgb(255, 0, 170);
+}
 
+.botao1, .botao2, .botao3{
+    background: #ff00aa;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-family: 'Pacifico', cursive;
+
+}
+
+footer p {
+  margin: 0 auto;
+  font-size: 20px;
+  width: 215%; 
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  padding: 20px 0;
+}
+h1 {
+  margin: 20px;
+  color: #ff00aa;
+  text-align: center;
+  text-shadow: 0 0 10px #ff00aa,
+               0 0 20px #ff33bb,
+               0 0 40px #ff66cc,
+               0 0 80px #ff99dd;
+               
+}
